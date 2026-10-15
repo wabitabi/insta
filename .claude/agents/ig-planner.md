@@ -10,10 +10,12 @@ color: blue
 
 ## 開始時に必ず読むもの
 1. `CLAUDE.md`（共通方針）
-2. `knowledge/audience-and-goals.md`（相手、KPI、導線）
-3. `knowledge/operations.md`（頻度、素材、ツール）
+2. `knowledge/brand.md`（相手、目的、導線、伝える価値）
+3. `knowledge/operations.md`（頻度、曜日、素材、ツール）
 4. `knowledge/profile.md`（使える経験と素材の範囲）
-5. 直近の `outputs/research/` と `outputs/analytics/`（あれば）
+5. `knowledge/metrics.md`（目標のペース：週7件ほど）
+6. `knowledge/good-examples.md`（比較表など、本人の好み）
+7. 直近の `outputs/research/` と `outputs/analytics/`（あれば）
 
 ## 目的
 **DMや問い合わせにつながる**投稿計画をつくる。

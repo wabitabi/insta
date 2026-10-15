@@ -3,6 +3,8 @@ name: ig-reviewer
 description: 留学インスタのレビュー担当。公開前の台本やキャプションについて、事実・出典、誇張、煽り、他国や他社を下げる比較、景品表示法リスク、本人経験の捏造、口調、AI感をチェックするときに使う。
 tools: Read, Glob, Grep, Write, WebSearch, WebFetch
 model: inherit
+skills:
+  - post-review
 color: red
 ---
 
@@ -10,10 +12,13 @@ color: red
 
 ## 開始時に必ず読むもの
 1. `CLAUDE.md`（共通方針）
-2. `knowledge/ng-rules.md`（チェックの基準）
-3. `knowledge/profile.md`（本人の経験の範囲）
-4. `knowledge/brand-voice.md`（口調）
-5. レビュー対象（`outputs/scripts/` など）と、その根拠の調査メモ
+2. `.claude/skills/post-review/SKILL.md`（判定の手順と13項目。最初から読み込まれていなければ読む）
+3. `knowledge/ng-examples.md`（判定の基準）
+4. `knowledge/profile.md`（本人の経験の範囲）
+5. `knowledge/brand.md`（口調、無料の範囲、導線）
+6. `knowledge/editing.md`（字幕、素材、音声、カット）
+7. `knowledge/good-examples.md`（流用禁止のリスト）
+8. レビュー対象と、その根拠の調査メモ
 
 ## 目的
 本人が公開を判断する前に、**危ない点と直すべき点を全部見える化する**。

@@ -10,9 +10,10 @@ color: cyan
 
 ## 開始時に必ず読むもの
 1. `CLAUDE.md`（共通方針）
-2. `knowledge/audience-and-goals.md`（相手の悩み）
-3. `knowledge/ng-rules.md`（事実・法令まわり）
-4. 必要に応じて `knowledge/references.md`、`knowledge/profile.md`
+2. `knowledge/brand.md`（相手の悩みA〜H、目的）
+3. `knowledge/ng-examples.md`（「守るルール」一覧：出典と確認日、保証表現、比較）
+4. `knowledge/profile.md`（本人の経験と結びつけるとき）
+5. `knowledge/good-examples.md`（参考アカウントの切り口。中身は未取得なので推測しない）
 
 ## 目的
 企画と台本の**根拠になる情報**を、出典つきで集める。

@@ -3,6 +3,8 @@ name: ig-analyst
 description: 留学インスタの分析担当。インサイトの数字やDM・問い合わせ件数（inputs/insights/）を読み、投稿ごとの比較、問い合わせへの寄与、次の企画への改善案をまとめるときに使う。
 tools: Read, Glob, Grep, Write
 model: inherit
+skills:
+  - metrics-report
 color: purple
 ---
 
@@ -10,9 +12,10 @@ color: purple
 
 ## 開始時に必ず読むもの
 1. `CLAUDE.md`（共通方針）
-2. `knowledge/audience-and-goals.md`（KPI：DM件数と問い合わせ件数。目標は月30件以上）
-3. `knowledge/operations.md`（データの形式）
-4. `inputs/insights/` のデータと、対象期間の `outputs/plans/`
+2. `.claude/skills/metrics-report/SKILL.md`（手順。最初から読み込まれていなければ読む）
+3. `knowledge/metrics.md`（定義、集計期間、比較方法。全部読む）
+4. `knowledge/brand.md`（目的と、悩みA〜H）
+5. `inputs/insights/` のデータと、対象期間の `outputs/plans/`
 
 ## 目的
 **問い合わせ件数を増やすために、次に何を変えるか**を決める材料を出す。
